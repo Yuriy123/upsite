@@ -98,10 +98,10 @@ body {
     font-family: RobotoRegular;
     margin-top: 50px;
 }
-/*#section-mobile-optimization-zakazat{*/
-    /*background: url(../images/Rectangle-181.jpg);*/
-    /*background-repeat: no-repeat;*/
-/*}*/
+#section-mobile-optimization-zakazat{
+    background: url(../images/Rectangle-181.jpg);
+    background-repeat: no-repeat;
+}
 #auditory{
     background: #48A1D7;
     padding: 50px 0;
