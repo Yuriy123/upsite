@@ -2,5 +2,258 @@ body {
     color: #666666;
     background: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
+}
+#header {
+    padding: 25px 0;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 14px;
+}
+#responsive-menu{
+    float: right;
+}
+.bgtext {
+    margin: 0 0 0 0;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 45%;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+}
+#about-company-in-numbers h2{
+    font-size: 18px;
+}
+.numbers-value{
+    color: #000;
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+}
+.numbers-title{
+    font-family: 'RobotoLight', sans-serif;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 10px;
+}
+
+#mobile-optimization-lesion, #mobile-optimization-profit {
+    padding: 50px 0;
+    font-family: RobotoRegular;
+    font-size: 20px;
+}
+#mobile-optimization-lesion ul, #mobile-optimization-profit ul {
+    margin: 20px 0;
+}
+#mobile-optimization-lesion h2, #mobile-optimization-profit h2 {
+    margin-bottom: 40px;
+}
+
+#mobile-optimization-lesion h2 {
+    color: #48a1d7;
+}
+#mobile-optimization-profit {
+    background: #48A1D7;
+    color: #fff;
+}
+#mobile-optimization-lesion-right img, #mobile-optimization-profit-right img {
+    margin: 0 130px 0 30px;
+    padding-top: 50px;
+}
+#mobile-optimization-lesion-right button {
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0);
+    padding: 8px 20px;
+    font-size: 18px;
+    border: 1px solid #666666;
+    color: #666666;
+}
+#mobile-optimization-profit-right button {
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0);
+    padding: 8px 20px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#mobile-optimization-lesion-right, #mobile-optimization-profit-right {
+    padding: 38px 0;
+    text-align: left;
+}
+
+#mobile-optimization-zakazat h2{
+    margin-top: 130px;
+}
+#mobile-optimization-zakazat button, #stock-right button{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: #48A1D7;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-family: RobotoRegular;
+    margin-top: 50px;
+}
+/*#section-mobile-optimization-zakazat{*/
+    /*background: url(../images/Rectangle-181.jpg);*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+#auditory{
+    background: #48A1D7;
+    padding: 50px 0;
+    margin-bottom: 40px;
+}
+#auditory-right{
+    border-left: 1px solid #fff;
+}
+#auditory-left h2{
+    margin-bottom: 40px;
+}
+
+#auditory-right h2{
+    margin-bottom:20px
+}
+#auditory-left h2, #auditory-right h2 {
+    font-family: RobotoRegular;
+    font-size: 30px;
+    color: #fff;
+}
+#auditory-right p{
+    margin-top: 20px;
+    color: #fff;
+    font-family: RobotoLight;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#auditory-left ul{
+    padding: 0;
+}
+#auditory-left ul li{
+    width: 420px;
+    font-family: RobotoRegular;
+    font-size: 22px;
+    color: #53b7ea;
+    list-style:none;
+    background: url(../images/Rectangle-22.png);
+    background-repeat: no-repeat;
+    margin: 20px 0;
+    padding: 15px 0;
+    text-align: center;
+}
+#pos-56{
+    font-weight: bold;
+    font-family: RobotoBold;
+    font-size: 30px;
+    color: #53b7ea;
+    position: relative;
+    left: -200px;
+}
+#our-clients{
+    padding: 60px 0;
+}
+#our-clients h2{
+    font-family: RobotoRegular;
+    font-size: 30px;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#our-clients .row{
+    padding: 0 70px;
+}
+#ukr-eko-prom{
+    max-width: 100%;
+}
+#upsales{
+    max-width: 100%;
+}
+#desire{
+    max-width: 100%;
+}
+#ukr-eko-prom-block,#desire-block, #upsales-block {
+    text-align: center;
+}
+#add-love-bottom{
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+#thanks{
+    padding-bottom: 50px;
+}
+#thanks h2{
+    text-transform: uppercase;
+    padding: 50px 0;
+    text-align: center;
+    font-family: RobotoRegular;
+    font-size: 18px;
+    color: #666666;
+}
+.thanks-author-name, .thanks-author-txt{
+    font-family: RobotoRegular;
+    font-size: 18px;
+    color: #000;
+}
+.thanks-author-name{
+    font-weight: bold;
+}
+#thanks .row div{
+    margin-bottom: 10px;
+}
+#popular-services .container .row img{
+    width: 100%;
+    height: auto;
+}
+
+#popular-services .container .row p{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+#popular-services{
+    padding: 50px 0 0 0;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#popular-services h4{
+    margin-bottom: 60px;
+}
+
+#footer-menu{
+    width: 70%;
+    margin: 0 auto;
+}
+#footer-img{
+    width: 60%;
+    margin: 0 auto;
+}
+#heart-img button:click{
+    outline:none;
+}
+#footer-img ul li:not(#heart-img) p{
+    margin-top: 10px;
+}
+
+#fcb-icon, #vk-icon{
+    margin-right: 30px;
+}
+#footer-nav-bar{
+    background: #fff;
+    border: none;
+}
+#footer{
+    padding: 50px 0 20px 0;
+    position: relative;
 }
